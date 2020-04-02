@@ -1,100 +1,363 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>image gallery</title>
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="gallery1.css">
 
-	<style>
-	
-	.thumbnail > img {
-		min-height:250px !important;
 
-	}
-	</style>
+
 	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
+
 <body>
-<div calss="container">
-<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+						data-target="#bs-nav-demo" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="#" class="navbar-brand"> <span class="glyphicon glyphicon-picture"
+							aria-hidden="true"></span>IMGS</a>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-nav-demo">
+					<ul class="nav navbar-nav">
+						<li><a href="about.html">About </a> </li>
+						<li><a href="contact.html">contact</a></li>
+
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="sign_up.html"></a></li>
+						<li><a href="#"></a></li>
+
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+
 		<div class="container">
-	<div calss="navbar-header">
-		 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
-	        <span class="sr-only">Toggle navigation</span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	      </button>
-	<a href="#" class="navbar-brand"> <span class="
-glyphicon glyphicon-picture" aria-hidden="true"></span>IMGS</a>
-</div>
-<div class="collapse navbar-collapse" id="bs-nav-demo">
-<ul class="nav navbar-nav">
-<li><a href="#">About</a></li>
-<li><a href="#">contact</a></li>
+			<div class="jumbotron">
+				<i class="fa fa-camera-retro">
+					<h1> My Image Gallery</h1>
+					<p>a bunch of beautiful photographs and travel experience(except for the first one !)</p>
+					<div class="row1">
+						<div class="column1">
+						  <img src="icons/icons8-france-48.png" alt="france" style="width:100%">
+						</div>
+						<div class="column1">
+						  <img src="icons/icons8-austria-48.png" alt="austria" style="width:100%">
+						</div>
+						<div class="column1">
+						  <img src="icons/icons8-india-48.png" alt="india" style="width:100%">
+						</div>
+						<div class="column1">
+							<img src="icons/icons8-belgium-48.png" alt="belgium" style="width:100%">
+						  </div>
+					    <div class="column1">
+							<img src="icons/icons8-czech-republic-48.png" alt="czech" style="width:100%">
+						  </div>
+						<div class="column1">
+							<img src="icons/icons8-germany-48.png" alt="Germany" style="width:100%">
+						  </div> 
+						<div class="column1">
+							<img src="icons/icons8-italy-48.png" alt="italy" style="width:100%">
+						  </div> 
+					    <div class="column1">
+							<img src="icons/icons8-netherlands-48.png" alt="Netherlands" style="width:100%">
+						  </div>
+						<div class="column1">
+							<img src="icons/icons8-slovenia-48.png" alt="slovenia" style="width:100%">
+						  </div>
+						<div class="column1">
+							<img src="icons/icons8-switzerland-48.png" alt="switzerland" style="width:100%">
+						  </div>
+						  <div class="column1">
+							<img src="icons/icons8-hungary-48.png" alt="hungary" style="width:100%">
+						  </div>
+					  </div>
+			</div>
+			
+				
+		
+ <div class="row">
+	<div class="col-lg-4  col-md-4 col-sm-6 col-xs-12">
+		<div class="thumbnail" data-toggle="modal" data-target="#exampleModalCenter1">
+			<img src="img/Amsterdam.jpeg" class="img-responsive">
+			<div class="container1">
+			<div class="overlay"></div>
+			<p class="title">Amsterdam</p>
+			<p class="button"><a href="#">View More</a>
+			</div>
+		</p> 
+		</div> <!-- Modal -->
+		<div class="modal fade" id="exampleModalCenter1" tab index="-1" role="dialog"
+			aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLongTitle"><b>Amsterdam, Netherlands</b></h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<img src="img/Amsterdam.jpeg" class="img-responsive mb-4">
+					</div>
+					<p style="margin:20px !important">Amsterdam is the Netherlands’ capital, known for its artistic heritage, elaborate canal system and narrow houses with gabled facades, legacies of the city’s 17th-century Golden Age. Its Museum District houses the Van Gogh Museum, works by Rembrandt and Vermeer at the Rijksmuseum, and modern art at the Stedelijk. Cycling is key to the city’s character, and there are numerous bike paths.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-lg-4  col-md-4 col-sm-6 col-xs-12">
+		<div class="thumbnail" data-toggle="modal" data-target="#exampleModalCenter2">
+			<img src="img/france.jpeg" class="img-responsive">
+			<div class="container1">
+			<div class="overlay"></div>
+			<p class="title">Paris</p>
+			<p class="button"><a href="#">View More</a>
+			</div>
+		</p> 
+		</div> <!-- Modal -->
+		<div class="modal fade" id="exampleModalCenter2" tab index="-1" role="dialog"
+			aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLongTitle"><b>Paris, France</b> </h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<img src="img/france.jpeg" class="img-responsive mb-4">
+					</div>
+					<p style="margin:20px !important">Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and culture. Its 19th-century cityscape is crisscrossed by wide boulevards and the River Seine. Beyond such landmarks as the Eiffel Tower and the 12th-century, Gothic Notre-Dame cathedral, the city is known for its cafe culture and designer boutiques along the Rue du Faubourg Saint-Honoré.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-lg-4  col-md-4 col-sm-6 col-xs-12">
+		<div class="thumbnail" data-toggle="modal" data-target="#exampleModalCenter3">
+			<img src="img/italy.jpg" class="img-responsive">
+			<div class="container1">
+			<div class="overlay"></div>
+			<p class="title">Venice</p>
+			<p class="button"><a href="#">View More</a>
+			</div>
+		</p> 
+		</div> <!-- Modal -->
+		<div class="modal fade" id="exampleModalCenter3" tab index="-1" role="dialog"
+			aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLongTitle"><b>Venice, Italy</b></h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<img src="img/italy.jpg" class="img-responsive mb-4">
+					</div>
+					<p style="margin:20px !important">Venice a city in northeastern Italy and the capital of the Veneto region. It is situated on a group of 118 small islands that are separated by canals and linked by over 400 bridges</p>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div class="row">
+		<div class="col-lg-4  col-md-4 col-sm-6 col-xs-12">
+			<div class="thumbnail" data-toggle="modal" data-target="#exampleModalCenter4">
+				<img src="img/switzerland.jpeg" class="img-responsive">
+				<div class="container1">
+				<div class="overlay"></div>
+				<p class="title">Switzerland</p>
+				<p class="button"><a href="#">View More</a>
+				</div>
+			</p> 
+			</div> <!-- Modal -->
+			<div class="modal fade" id="exampleModalCenter4" tab index="-1" role="dialog"
+				aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLongTitle"><b>Switzerland Countryside</b></h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<img src="img/switzerland.jpeg" class="img-responsive mb-4">
+						</div>
+						<p style="margin:20px !important">Switzerland is a mountainous Central European country, home to numerous lakes, villages and the high peaks of the Alps. Its cities contain medieval quarters, with landmarks like capital Bern’s Zytglogge clock tower and Lucerne’s wooden chapel bridge. The country is also known for its ski resorts and hiking trails</p>
+					</div>
+				</div>
+			</div>
+		</div>		
+		<div class="col-lg-4  col-md-4 col-sm-6 col-xs-12">
+			<div class="thumbnail" data-toggle="modal" data-target="#exampleModalCenter5">
+				<img src="img/berlin.jpeg" class="img-responsive">
+				<div class="container1">
+				<div class="overlay"></div>
+				<p class="title">Berlin</p>
+				<p class="button"><a href="#">View More</a>
+				</div>
+			</p> 
+			</div> <!-- Modal -->
+			<div class="modal fade" id="exampleModalCenter5" tab index="-1" role="dialog"
+				aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLongTitle"><b>Berlin, Germany</b></h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<img src="img/berlin.jpeg" class="img-responsive mb-4">
+						</div>
+						<p style="margin:20px !important">Berlin is an edgy city, from its fashion to its architecture to its charged political history. The Berlin Wall is a sobering reminder of the hyper-charged postwar atmosphere, and yet the graffiti art that now covers its remnants has become symbolic of social progress. Check out the Weltzeituhr (world time) Clock, topped by a model of the solar system, then turn back time by dining at the historic Zur Letzten Instanz, a 16th century restaurant that was frequented by Napoleon and Beethoven.</p>
+					</div>
+				</div>
+			</div>
+		</div>			
+		<div class="col-lg-4  col-md-4 col-sm-6 col-xs-12">
+			<div class="thumbnail" data-toggle="modal" data-target="#exampleModalCenter6">
+				<img src="img/slovenia.jpeg" class="img-responsive">
+				<div class="container1">
+				<div class="overlay"></div>
+				<p class="title">slovenia</p>
+				<p class="button"><a href="#">View More</a>
+				</div>
+			</p> 
+			</div> <!-- Modal -->
+			<div class="modal fade" id="exampleModalCenter6" tab index="-1" role="dialog"
+				aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLongTitle"><b>Slovenia</b></h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<img src="img/slovenia.jpeg" class="img-responsive mb-4">
+						</div>
+						<p style="margin:20px !important">The former Yugoslav republic of Slovenia, which gained its independence in 1991, is slightly smaller than New Jersey. With one toe dipped in the Adriatic and several major rivers and lakes, water sports are popular. To the east, the Alps provide excellent hiking and skiing. Nestled below its castle, the capital of Llubjana is a vibrant, youthful city with a thrilling arts scene, a flotilla of festivals and impressive architecture that runs the stylistic gamut from Renaissance to Art Nouveau.</p>
+					</div>
+				</div>
+			</div>
+		</div>				
+        <div class="col-lg-4  col-md-4 col-sm-6 col-xs-12">
+			<div class="thumbnail" data-toggle="modal" data-target="#exampleModalCenter7">
+				<img src="img/hungary.jpeg" class="img-responsive">
+				<div class="container1">
+				<div class="overlay"></div>
+				<p class="title">Budapest</p>
+				<p class="button"><a href="#">View More</a>
+				</div>
+			</p> 
+			</div> <!-- Modal -->
+			<div class="modal fade" id="exampleModalCenter7" tab index="-1" role="dialog"
+				aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLongTitle"><b>Budapest, Hungary</b></h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<img src="img/hungary.jpeg" class="img-responsive mb-4">
+						</div>
+						<p style="margin:20px !important">Over 15 million gallons of water bubble daily into Budapest's 118 springs and boreholes. The city of spas offers an astounding array of baths, from the sparkling Gellert Baths to the vast 1913 neo-baroque Szechenyi Spa to Rudas Spa, a dramatic 16th-century Turkish pool with original Ottoman architecture. The "Queen of the Danube" is also steeped in history, culture and natural beauty. Get your camera ready for the Roman ruins of the Aquincum Museum, Heroes' Square and Statue Park, and the 300-foot dome of St. Stephen's Basilica.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4  col-md-4 col-sm-6 col-xs-12">
+			<div class="thumbnail" data-toggle="modal" data-target="#exampleModalCenter8">
+				<img src="img/Geneva.jpeg" class="img-responsive">
+				<div class="container1">
+				<div class="overlay"></div>
+				<p class="title">Geneva</p>
+				<p class="button"><a href="#">View More</a>
+				</div>
+			</p> 
+			</div> <!-- Modal -->
+			<div class="modal fade" id="exampleModalCenter8" tab index="-1" role="dialog"
+				aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLongTitle"><b>Geneva, Switzerland</b></h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<img src="img/Geneva.jpeg" class="img-responsive mb-4">
+						</div>
+						<p style="margin:20px !important">The shores of Lake Geneva have attracted visitors and invaders for millennia. The cheerful city of Geneva sits on the lake's western shore, lofty snowcapped peaks creating a gorgeous backdrop on all sides. The city is perfect for exploring on foot; rent a bike to venture further. The top of any itinerary should be visits to Geneva's lakefront and its famed water fountain, the Flower Clock in the English Garden, St. Peter's Cathedral, Reformation Wall, Place Neuve and the birthplace of the U.N.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4  col-md-4 col-sm-6 col-xs-12">
+			<div class="thumbnail" data-toggle="modal" data-target="#exampleModalCenter9">
+				<img src="img/Prague.jpeg" class="img-responsive">
+				<div class="container1">
+				<div class="overlay"></div>
+				<p class="title">Prague</p>
+				<p class="button"><a href="#">View More</a>
+				</div>
+			</p> 
+			</div> <!-- Modal -->
+			<div class="modal fade" id="exampleModalCenter9" tab index="-1" role="dialog"
+				aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLongTitle"><b>Prague, Czech Republic</b> </h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<img src="img/Prague.jpeg" class="img-responsive mb-4">
+						</div>
+						<p style="margin:20px !important">The bohemian allure and fairytale features of Prague make it a perfect destination for beach-weary vacationers who want to immerse themselves in culture. You could devote an entire day to exploring Prazsky hrad (Prague Castle), then refueling over a hearty dinner at a classic Czech tavern. Spend some time wandering the Old Town Square before heading over to gape at The Old Town Hall and Astronomical Clock. Prague’s best bars are found in cellars, where historic pubs set the scene for a night of traditional tippling.</p>
+					</div>
+				</div>
+			</div>
+		</div>												
+
+
+			
+	</div>
+	</div>
 	
-</ul>
-<ul class="nav navbar-nav navbar-right">
-	<li><a href="#">sign up</a></li>
-	<li><a href="#">login</a></li>
-	
-</ul>
-</div>
-</div>
-</nav>
 
-
-
-<div class="container">
-<div class="jumbotron">
-	<i class="fa fa-camera-retro"><h1> The Image Gallery</h1> 
-	<p>a bunch of beautiful taht i didnt take (except for the first one !)</p>
-</div>
-<div class="row">
-	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-	<div class="thumbnail">	
-	   <img src="https://d36tnp772eyphs.cloudfront.net/blogs/1/2018/02/Side-view-of-the-Taj-Mahal.jpg"> </div>
-    </div>
-	<div class="col-lg-4  col-md-4 col-sm-6 col-xs-12"> 
-	<div class="thumbnail">
-    <img src="https://d36tnp772eyphs.cloudfront.net/blogs/1/2018/02/Taj-Mahal.jpg"> </div>
-   </div>
-	<div class="col-lg-4  col-md-4 col-sm-6 col-xs-12 ">
-    <div class="thumbnail">
-	<img src="https://d36tnp772eyphs.cloudfront.net/blogs/1/2018/02/Christ-the-Redeemer.jpg"> </div>
-   </div>
-   <div class="col-lg-4 col-sm-6">
-	<div class="thumbnail">	
-	<img src="https://d36tnp772eyphs.cloudfront.net/blogs/1/2018/02/kate-siobhan-mulligan-Petra-Jordan-seven-wonders-of-the-world.jpeg"> </div>
-   </div>
-	<div class="col-lg-4 col-sm-6"> 
-	<div class="thumbnail">
-    <img src="https://d36tnp772eyphs.cloudfront.net/blogs/1/2018/02/Great-Wall-of-China-view.jpg"> </div>
-   </div>
-	<div class="col-lg-4 col-sm-6">
-    <div class="thumbnail">
-	<img src="https://d36tnp772eyphs.cloudfront.net/blogs/1/2018/02/View-of-the-Colosseum.jpg"> </div>
 </div>
 
-<div class="col-lg-4 col-sm-6">
-	<div class="thumbnail">	
-	   <img src="https://d36tnp772eyphs.cloudfront.net/blogs/1/2018/02/Side-view-of-Machu-Picchu.jpg"> </div>
-    </div>
-	<div class="col-lg-4 col-sm-6"> 
-	<div class="thumbnail">
-    <img src="https://d36tnp772eyphs.cloudfront.net/blogs/1/2018/02/Temple-of-warriors-at-Chichen-Itza.jpg"> </div>
-   </div>
-	<div class="col-lg-4 col-sm-6">
-    <div class="thumbnail">
-	<img src="https://d36tnp772eyphs.cloudfront.net/blogs/1/2018/06/Beach-at-Tossa-de-Mar-and-fortress-in-a-beautiful-summer-day-Costa-Brava-Catalonia-Spain.jpg"> </div>
-</div>
-</div>	
-</div>
-</div>
-<script
-  src="https://code.jquery.com/jquery-3.4.1.js"
-  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-  crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"
+		integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+		integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+		crossorigin="anonymous"></script>
 </body>
+
 </html>
